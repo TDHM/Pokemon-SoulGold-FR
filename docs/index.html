@@ -111,8 +111,9 @@
             <p class="section-label">Guide</p>
             <h2 id="installation-titre">Comment installer le patch&nbsp;?</h2>
             <p>
-              Le patch français doit être appliqué à une copie américaine compatible de Pokémon
-              Émeraude que vous possédez déjà. Aucune ROM n’est fournie, hébergée ou liée par ce projet.
+              Le patch français doit être appliqué à une ROM de Pokémon SoulGold créée avec le patch
+              officiel du projet original. Il ne doit pas être appliqué directement à Pokémon Émeraude.
+              Aucune ROM n’est fournie, hébergée ou liée par ce projet.
             </p>
           </div>
 
@@ -120,8 +121,8 @@
             <div class="platform-heading">
               <span class="platform-icon" aria-hidden="true">🧩</span>
               <div>
-                <p class="section-label">Dans le navigateur</p>
-                <h3 id="patch-titre">Appliquer le patch avec Rom Patcher JS</h3>
+                <p class="section-label">Deux patchs successifs</p>
+                <h3 id="patch-titre">Préparer SoulGold, puis appliquer la traduction</h3>
               </div>
             </div>
 
@@ -129,10 +130,41 @@
               <h4>Vous aurez besoin de :</h4>
               <ul>
                 <li>votre propre ROM <strong>Pokémon Émeraude US</strong> compatible, au format <code>.gba</code> ;</li>
-                <li>du patch <strong>Pokémon SoulGold FR</strong> au format <code>.bps</code>, disponible ici après les tests.</li>
+                <li>du patch officiel de <strong>Pokémon SoulGold</strong>, appliqué depuis Hackdex ;</li>
+                <li>du patch de traduction <strong>Pokémon SoulGold FR</strong> au format <code>.bps</code>.</li>
               </ul>
             </div>
 
+            <h4 class="procedure-title">1. Créer la ROM Pokémon SoulGold</h4>
+            <ol class="install-steps install-steps--patch">
+              <li>
+                <span>1</span>
+                <p>Ouvrez la <a class="text-link" href="https://www.hackdex.app/hack/soulgold" target="_blank" rel="noopener noreferrer">fiche officielle de Pokémon SoulGold sur Hackdex</a>.</p>
+              </li>
+              <li>
+                <span>2</span>
+                <p>Repérez le <strong>numéro de version de SoulGold</strong> proposé sur la page et conservez-le pour la vérification suivante.</p>
+              </li>
+              <li>
+                <span>3</span>
+                <p>Sélectionnez votre propre ROM Pokémon Émeraude US compatible lorsque Hackdex vous la demande, puis lancez l’application du patch officiel.</p>
+              </li>
+              <li>
+                <span>4</span>
+                <p>Enregistrez le fichier Pokémon SoulGold <code>.gba</code> généré. C’est ce fichier qui servira de base à la traduction française.</p>
+              </li>
+            </ol>
+
+            <div class="version-note" role="note" aria-label="Vérification obligatoire de la version">
+              <strong>Vérification obligatoire</strong>
+              <p>
+                Le numéro de version de Pokémon SoulGold doit correspondre exactement à celui indiqué
+                pour le patch SoulGold FR. En cas de différence, n’appliquez pas le patch français :
+                utilisez la version de SoulGold prévue pour ce patch.
+              </p>
+            </div>
+
+            <h4 class="procedure-title">2. Appliquer le patch français</h4>
             <ol class="install-steps install-steps--patch">
               <li>
                 <span>1</span>
@@ -140,11 +172,11 @@
               </li>
               <li>
                 <span>2</span>
-                <p>Dans <strong>ROM file</strong>, sélectionnez votre fichier Pokémon Émeraude US <code>.gba</code>.</p>
+                <p>Dans <strong>ROM file</strong>, sélectionnez le fichier Pokémon SoulGold <code>.gba</code> obtenu avec Hackdex — et non votre ROM Pokémon Émeraude.</p>
               </li>
               <li>
                 <span>3</span>
-                <p>Dans <strong>Patch file</strong>, sélectionnez le patch Pokémon SoulGold FR <code>.bps</code>.</p>
+                <p>Dans <strong>Patch file</strong>, sélectionnez le patch Pokémon SoulGold FR <code>.bps</code> correspondant à cette version de SoulGold.</p>
               </li>
               <li>
                 <span>4</span>
@@ -152,17 +184,13 @@
               </li>
               <li>
                 <span>5</span>
-                <p>Enregistrez le nouveau fichier <code>.gba</code> généré sur votre appareil.</p>
-              </li>
-              <li>
-                <span>6</span>
-                <p>Importez ce fichier patché dans un émulateur compatible ci-dessous.</p>
+                <p>Enregistrez le nouveau fichier <code>.gba</code> généré, puis importez-le dans un émulateur compatible ci-dessous.</p>
               </li>
             </ol>
 
             <p class="privacy-note">
-              Le patch est appliqué localement dans votre navigateur. Le site ne fournit pas la ROM
-              de base : vous devez sélectionner votre propre fichier.
+              Les patchs sont appliqués à vos propres fichiers. Ni Hackdex ni ce site ne vous dispensent
+              de posséder une copie compatible de Pokémon Émeraude ; aucune ROM n’est fournie ici.
             </p>
           </article>
 
