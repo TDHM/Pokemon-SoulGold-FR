@@ -354,7 +354,7 @@ h3 {
   color: #a7eddf;
 }
 
-.badge--testing {
+.badge--release {
   border-color: rgba(118, 188, 232, 0.35);
   background: rgba(118, 188, 232, 0.1);
   color: #b6dcf5;
@@ -388,6 +388,11 @@ h3 {
   background: var(--accent);
   color: #17130a;
   font-size: 1rem;
+}
+
+.button--download:hover {
+  background: var(--accent-soft);
+  transform: translateY(-2px);
 }
 
 .button--disabled,
