@@ -513,12 +513,6 @@ h3 {
   margin-top: 0.35rem;
 }
 
-.procedure-title {
-  margin: 1.5rem 0 0.75rem;
-  color: var(--text);
-  font-size: 1.05rem;
-}
-
 .install-steps {
   display: grid;
   margin: 0 0 2rem;
@@ -559,26 +553,6 @@ h3 {
 
 .install-steps--patch {
   margin-bottom: 1rem;
-}
-
-.version-note {
-  margin: 1.25rem 0 1.5rem;
-  padding: 1rem;
-  border: 1px solid rgba(94, 180, 223, 0.45);
-  border-radius: 12px;
-  background: rgba(94, 180, 223, 0.09);
-}
-
-.version-note strong {
-  display: block;
-  margin-bottom: 0.35rem;
-  color: #bce7fb;
-}
-
-.version-note p {
-  margin: 0;
-  color: #d1dce3;
-  font-size: 0.92rem;
 }
 
 .privacy-note {
